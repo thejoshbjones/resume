@@ -16,10 +16,9 @@ var trackerId = 'UA-21222559-1';
 
 $(document).ready(function() {
     try {
-       /*username = thejoshbjones;
-       run();*/
-        if (urlParams[0] == undefined) {
-            username = urlParams[0];
+        if (urlParams[0] !== undefined) {
+            //username = urlParams[0];
+            username = thejoshbjones;
             run();
         } else {
             home();
