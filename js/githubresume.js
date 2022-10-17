@@ -14,7 +14,6 @@ var trackerId = 'UA-21222559-1';
     }
 })();
 
-
 $(document).ready(function() {
     try {
         if (urlParams[0] !== undefined) {
@@ -28,10 +27,9 @@ $(document).ready(function() {
             console.log(err);
         } catch (e) {
             /*fail silently*/
-       }
-   }
+        }
+    }
 });
-
 
 var error = function() {
     $.ajax({
@@ -46,7 +44,7 @@ var error = function() {
 
 var home = function() {
     $.ajax({
-        url: 'views/resume.html',
+        url: 'views/index.html',
         dataType: 'html',
         success: function(data) {
             var template = data;
