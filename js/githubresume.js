@@ -15,13 +15,13 @@ var trackerId = 'UA-21222559-1';
 })();
 
 $(document).ready(function() {
-    /*try {
+    try {
         if (urlParams[0] !== undefined) {
             username = urlParams[0];
             run();
-        } else {*/
+        } else {
             home();
-      //  }
+        }
     } catch (err) {
         try {
             console.log(err);
@@ -44,7 +44,7 @@ var error = function() {
 
 var home = function() {
     $.ajax({
-        url: 'views/index.html',
+        url: 'views/resume.html',
         dataType: 'html',
         success: function(data) {
             var template = data;
