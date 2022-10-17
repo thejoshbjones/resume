@@ -16,14 +16,14 @@ var trackerId = 'UA-21222559-1';
 
 $(document).ready(function() {
     try {
-       username = thejoshbjones;
-       run();
-        /*if (urlParams[0] == undefined) {
+       /*username = thejoshbjones;
+       run();*/
+        if (urlParams[0] == undefined) {
             username = urlParams[0];
             run();
         } else {
             home();
-        }*/
+        }
     } catch (err) {
         try {
             console.log(err);
