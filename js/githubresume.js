@@ -14,8 +14,8 @@ var trackerId = 'UA-21222559-1';
     }
 })();
 
-/*
-$(document).ready(function() {
+
+/*$(document).ready(function() {
     try {
         if (urlParams[0] !== undefined) {
             username = urlParams[0];
@@ -28,10 +28,10 @@ $(document).ready(function() {
             console.log(err);
         } catch (e) {
             /*fail silently*/
-        }
-    }
-});
-*/
+//        }
+//    }
+//});
+
 
 var error = function() {
     $.ajax({
