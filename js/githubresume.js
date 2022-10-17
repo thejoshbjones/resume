@@ -1,5 +1,5 @@
 var urlParams = {};
-var username = thejoshbjones;
+var username;
 var trackerId = 'UA-21222559-1';
 
 (function () {
@@ -18,6 +18,7 @@ $(document).ready(function() {
     try {
         if (urlParams[0] !== undefined) {
             //username = urlParams[0];
+            username = thejoshbjones;
             run();
         } else {
             home();
