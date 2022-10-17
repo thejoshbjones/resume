@@ -15,10 +15,9 @@ var trackerId = 'UA-21222559-1';
 })();
 
 $(document).ready(function() {
-    try {
+    /ry {
         if (urlParams[0] !== undefined) {
-            //username = urlParams[0];
-            username = thejoshbjones;
+            username = urlParams[0];
             run();
         } else {
             home();
@@ -45,7 +44,7 @@ var error = function() {
 
 var home = function() {
     $.ajax({
-        url: 'views/resume.html',
+        url: 'views/index.html',
         dataType: 'html',
         success: function(data) {
             var template = data;
