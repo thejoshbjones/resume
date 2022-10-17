@@ -50,7 +50,7 @@ var home = function() {
         dataType: 'html',
         success: function(data) {
             var template = data;
-            $('#resume').html(data);
+            $(data);
         }
     });
 };
