@@ -227,7 +227,7 @@ var run = function() {
             created_at: data.created_at,
             earlyAdopter: 0,
             location: data.location,
-            gravatar_id: data.gravatar_id,
+            gravatar_id: '247c2691388181085cb3bdf8606aaaa0',
             avatar_url: avatar,
             repos: data.public_repos,
             reposLabel: data.public_repos > 1 ? 'repositories' : 'repository',
