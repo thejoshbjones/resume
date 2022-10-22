@@ -216,7 +216,7 @@ var run = function() {
 
         var avatar = '';
         if (data.type == 'Organization'){
-            avatar = data.avatar_url.match(/https:\/\/secure.gravatar.com\/avatar\/[0-9a-z]+/)[0];
+            avatar = data.avatar_url.match(/https:\/\/secure.gravatar.com\/avatar\/[0-9a-z]+/)username;
             avatar += '?s=140&amp;d=https://github.com/images/gravatars/gravatar-140.png';
         }
 
