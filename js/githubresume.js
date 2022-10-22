@@ -45,7 +45,7 @@ var error = function() {
 
 var home = function() {
     $.ajax({
-        url: 'views/index.html',
+        url: 'views/resume.html',
         dataType: 'html',
         success: function(data) {
             var template = data;
