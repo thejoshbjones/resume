@@ -1,4 +1,4 @@
-var urlParams = {};
+//var urlParams = {};
 var username = thejoshbjones;
 var trackerId = 'UA-21222559-1';
 
