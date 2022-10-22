@@ -1,8 +1,8 @@
-//var urlParams = {};
-var username = 'thejoshbjones';
+var urlParams = {};
+var username;
 var trackerId = 'UA-21222559-1';
 
-/*(function () {
+(function () {
     var e,
         a = /\+/g,  // Regex for replacing addition symbol with a space
         r = /([^&=]+)=?([^&]*)/g,
@@ -13,16 +13,15 @@ var trackerId = 'UA-21222559-1';
        urlParams[0] = d(e[1]);
     }
 })();
-*/
+
 $(document).ready(function() {
     try {
-        /*if (urlParams[0] !== undefined) {
+        if (urlParams[0] !== undefined) {
             username = urlParams[0];
             run();
         } else {
             home();
-        }*/
-        run();
+        }
     } catch (err) {
         try {
             console.log(err);
